@@ -12,10 +12,10 @@ from natasha import (
 )
 
 
-MODEL_KNN = joblib.load('../model/model_knn.pkl')
-VECTORIZER = joblib.load('../model/vectorizer.pkl')
-FOLDER_NAMES_LIST = joblib.load('../meta_data/folders_names_list.pkl')
-STOP_WORDS_LIST = joblib.load('../meta_data/stop_words_list.pkl')
+MODEL_KNN = joblib.load('model/model_knn.pkl')
+VECTORIZER = joblib.load('model/vectorizer.pkl')
+FOLDER_NAMES_LIST = joblib.load('meta_data/folders_names_list.pkl')
+STOP_WORDS_LIST = joblib.load('meta_data/stop_words_list.pkl')
 
 
 class ClassifyText:
