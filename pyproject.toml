@@ -1,0 +1,12 @@
+[project]
+name = "tg-knn"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "joblib>=1.5.1",
+    "pytelegrambotapi>=4.27.0",
+    "scikit-learn>=1.6.1",
+    "scipy>=1.15.3",
+]
